@@ -23,7 +23,7 @@ d) Data Aggregation: Grouping data and performing calculations on groups (e.g., 
 ## 📝 Tasks and thier Queries with outputs
 
 1. Show first name, last name, and gender of patients who's gender is 'M'
-
+![Image](https://github.com/user-attachments/assets/06915fb5-a985-4f0d-89f7-8deb3b93819e)
 
 2. Show first name and last name of patients who does not have allergies.
 
