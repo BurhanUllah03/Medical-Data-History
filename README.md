@@ -23,39 +23,42 @@ d) Data Aggregation: Grouping data and performing calculations on groups (e.g., 
 ## 📝 Tasks and thier Queries with outputs
 
 1. Show first name, last name, and gender of patients who's gender is 'M'
-![Image](https://github.com/user-attachments/assets/06915fb5-a985-4f0d-89f7-8deb3b93819e)
+``` sql
+      select first_name,last_name,gender
+      from patients
+      where gender = "M" ;
+```
+3. Show first name and last name of patients who does not have allergies.
 
-2. Show first name and last name of patients who does not have allergies.
+4. Show first name of patients that start with the letter 'C'
 
-3. Show first name of patients that start with the letter 'C'
+5. Show first name and last name of patients that weight within the range of 100 to 120 (inclusive)
 
-4. Show first name and last name of patients that weight within the range of 100 to 120 (inclusive)
+6. Update the patients table for the allergies column. If the patient's allergies is null then replace it with 'NKA'
 
-5. Update the patients table for the allergies column. If the patient's allergies is null then replace it with 'NKA'
+7. Show first name and last name concatenated into one column to show their full name.
 
-6. Show first name and last name concatenated into one column to show their full name.
+8. Show first name, last name, and the full province name of each patient.
 
-7. Show first name, last name, and the full province name of each patient.
+9. Show how many patients have a birth_date with 2010 as the birth year.
 
-8. Show how many patients have a birth_date with 2010 as the birth year.
+10. Show the first_name, last_name, and height of the patient with the greatest height.
 
-9. Show the first_name, last_name, and height of the patient with the greatest height.
+11. Show all columns for patients who have one of the following patient_ids: 1,45,534,879,1000
 
-10. Show all columns for patients who have one of the following patient_ids: 1,45,534,879,1000
+12. Show the total number of admissions
 
-11. Show the total number of admissions
+13. Show all the columns from admissions where the patient was admitted and discharged on the same day.
 
-12. Show all the columns from admissions where the patient was admitted and discharged on the same day.
+14. Show the total number of admissions for patient_id 579.
 
-13. Show the total number of admissions for patient_id 579.
+15. Based on the cities that our patients live in, show unique cities that are in province_id 'NS'?
 
-14. Based on the cities that our patients live in, show unique cities that are in province_id 'NS'?
+16. Write a query to find the first_name, last name and birth date of patients who have height more than 160 and weight more than 70
 
-15. Write a query to find the first_name, last name and birth date of patients who have height more than 160 and weight more than 70
+17. Show unique birth years from patients and order them by ascending.
 
-16. Show unique birth years from patients and order them by ascending.
-
-17. Show unique first names from the patients table which only occurs once in the list.
+18. Show unique first names from the patients table which only occurs once in the list.
   
 For example, if two or more people are named 'John' in the first_name column then don't include their name in the output list. If only 1 person is named 'Leo' then include them in the output. Tip: HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
 
