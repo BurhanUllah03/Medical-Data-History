@@ -20,7 +20,7 @@ Data Sorting: Ordering results based on specific columns (e.g., birth date, pati
 d) Data Aggregation: Grouping data and performing calculations on groups (e.g., counting patients in each city, finding the total number of admissions).
 
 
-## 📝 Tasks and thier Queries with outputs
+## 📝 Tasks and thier Queries 
 
 1. Show first name, last name, and gender of patients who's gender is 'M'
 
